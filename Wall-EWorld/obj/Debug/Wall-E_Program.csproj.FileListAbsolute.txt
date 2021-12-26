@@ -1,0 +1,7 @@
+e:\documents\visual studio 2017\Projects\Wall-EApp\Wall-EWorld\bin\Debug\Wall-EWorld.dll
+e:\documents\visual studio 2017\Projects\Wall-EApp\Wall-EWorld\bin\Debug\Wall-EWorld.pdb
+e:\documents\visual studio 2017\Projects\Wall-EApp\Wall-EWorld\obj\Debug\Wall-EWorld.dll
+e:\documents\visual studio 2017\Projects\Wall-EApp\Wall-EWorld\obj\Debug\Wall-EWorld.pdb
+e:\documents\visual studio 2017\Projects\Wall-EApp\Wall-EWorld\obj\Debug\Wall-E_Program.csprojResolveAssemblyReference.cache
+e:\documents\visual studio 2017\Projects\Wall-EApp\Wall-EWorld\obj\Debug\Wall_EWorld.Properties.Resources.resources
+e:\documents\visual studio 2017\Projects\Wall-EApp\Wall-EWorld\obj\Debug\Wall-E_Program.csproj.GenerateResource.Cache

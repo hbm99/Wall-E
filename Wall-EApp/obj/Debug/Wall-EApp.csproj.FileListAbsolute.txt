@@ -1,0 +1,8 @@
+e:\documents\visual studio 2017\Projects\Wall-EApp\Wall-EApp\bin\Debug\Wall-EApp.exe.config
+e:\documents\visual studio 2017\Projects\Wall-EApp\Wall-EApp\bin\Debug\Wall-EApp.exe
+e:\documents\visual studio 2017\Projects\Wall-EApp\Wall-EApp\bin\Debug\Wall-EApp.pdb
+e:\documents\visual studio 2017\Projects\Wall-EApp\Wall-EApp\bin\Debug\Wall-EWorld.dll
+e:\documents\visual studio 2017\Projects\Wall-EApp\Wall-EApp\bin\Debug\Wall-EWorld.pdb
+e:\documents\visual studio 2017\Projects\Wall-EApp\Wall-EApp\obj\Debug\Wall-EApp.csprojResolveAssemblyReference.cache
+e:\documents\visual studio 2017\Projects\Wall-EApp\Wall-EApp\obj\Debug\Wall-EApp.exe
+e:\documents\visual studio 2017\Projects\Wall-EApp\Wall-EApp\obj\Debug\Wall-EApp.pdb

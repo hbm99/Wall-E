@@ -1,0 +1,17 @@
+e:\documents\visual studio 2017\Projects\Wall-EApp\MyWinForm\bin\Debug\MyWinForm.exe.config
+e:\documents\visual studio 2017\Projects\Wall-EApp\MyWinForm\bin\Debug\MyWinForm.exe
+e:\documents\visual studio 2017\Projects\Wall-EApp\MyWinForm\bin\Debug\MyWinForm.pdb
+e:\documents\visual studio 2017\Projects\Wall-EApp\MyWinForm\bin\Debug\Wall-EWorld.dll
+e:\documents\visual studio 2017\Projects\Wall-EApp\MyWinForm\bin\Debug\Wall-EWorld.pdb
+e:\documents\visual studio 2017\Projects\Wall-EApp\MyWinForm\obj\Debug\MyWinForm.csprojResolveAssemblyReference.cache
+e:\documents\visual studio 2017\Projects\Wall-EApp\MyWinForm\obj\Debug\MyWinForm.Form1.resources
+e:\documents\visual studio 2017\Projects\Wall-EApp\MyWinForm\obj\Debug\MyWinForm.Properties.Resources.resources
+e:\documents\visual studio 2017\Projects\Wall-EApp\MyWinForm\obj\Debug\MyWinForm.csproj.GenerateResource.Cache
+e:\documents\visual studio 2017\Projects\Wall-EApp\MyWinForm\obj\Debug\MyWinForm.exe
+e:\documents\visual studio 2017\Projects\Wall-EApp\MyWinForm\obj\Debug\MyWinForm.pdb
+e:\documents\visual studio 2017\Projects\Wall-EApp\MyWinForm\obj\Debug\MyWinForm.SpaceCreator.resources
+e:\documents\visual studio 2017\Projects\Wall-EApp\MyWinForm\obj\Debug\MyWinForm.SetObject.resources
+e:\documents\visual studio 2017\Projects\Wall-EApp\MyWinForm\obj\Debug\MyWinForm.Remove.resources
+e:\documents\visual studio 2017\Projects\Wall-EApp\MyWinForm\obj\Debug\MyWinForm.RobotOptions.resources
+e:\documents\visual studio 2017\Projects\Wall-EApp\MyWinForm\obj\Debug\MyWinForm.RoutineOptions.resources
+E:\Documents\Visual Studio 2017\Projects\Wall-EApp\MyWinForm\obj\Debug\MyWinForm.RoutineCreator.resources

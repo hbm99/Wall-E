@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6186C644-005D-46B8-AD53-155ABEC4B57A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MatrixLanguage</RootNamespace>
+    <AssemblyName>MatrixLanguage</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Instructions\FlowDirections\Branch.cs" />
+    <Compile Include="Instructions\FlowDirections\NE.cs" />
+    <Compile Include="Instructions\FlowDirections\NW.cs" />
+    <Compile Include="Instructions\FlowDirections\SE.cs" />
+    <Compile Include="Instructions\FlowDirections\SW.cs" />
+    <Compile Include="Instructions\FlowDirections\T\TE.cs" />
+    <Compile Include="Instructions\FlowDirections\T\TN.cs" />
+    <Compile Include="Instructions\FlowDirections\T\TS.cs" />
+    <Compile Include="Instructions\FlowDirections\T\TW.cs" />
+    <Compile Include="Instructions\Instruction.cs" />
+    <Compile Include="Instructions\Operators\Binary\Add.cs" />
+    <Compile Include="Instructions\Operators\Binary\And.cs" />
+    <Compile Include="Instructions\Operators\Binary\BinaryOperators.cs" />
+    <Compile Include="Instructions\Operators\Binary\Div.cs" />
+    <Compile Include="Instructions\Operators\Binary\Eq.cs" />
+    <Compile Include="Instructions\Operators\Binary\Geq.cs" />
+    <Compile Include="Instructions\Operators\Binary\Gt.cs" />
+    <Compile Include="Instructions\Operators\Binary\Land.cs" />
+    <Compile Include="Instructions\Operators\Binary\Leq.cs" />
+    <Compile Include="Instructions\Operators\Binary\Lor.cs" />
+    <Compile Include="Instructions\Operators\Binary\Lt.cs" />
+    <Compile Include="Instructions\Operators\Binary\Lxor.cs" />
+    <Compile Include="Instructions\Operators\Binary\Mod.cs" />
+    <Compile Include="Instructions\Operators\Binary\Mul.cs" />
+    <Compile Include="Instructions\Operators\Binary\Neq.cs" />
+    <Compile Include="Instructions\Operators\Binary\Or.cs" />
+    <Compile Include="Instructions\Operators\Binary\Sub.cs" />
+    <Compile Include="Instructions\Operators\Operator.cs" />
+    <Compile Include="Instructions\Operators\Ternary\Ternary.cs" />
+    <Compile Include="Instructions\Operators\Ternary\TernaryOperator.cs" />
+    <Compile Include="Instructions\Operators\Unary\UnaryOperators.cs" />
+    <Compile Include="Instructions\Operators\Unary\Dec.cs" />
+    <Compile Include="Instructions\Operators\Unary\Inc.cs" />
+    <Compile Include="Instructions\Operators\Unary\Lnot.cs" />
+    <Compile Include="Instructions\Operators\Unary\Not.cs" />
+    <Compile Include="Instructions\Print\Print.cs" />
+    <Compile Include="Instructions\Registries\GetRegistry.cs" />
+    <Compile Include="Instructions\Registries\SetRegistry.cs" />
+    <Compile Include="Instructions\RobotMemory\GetAt.cs" />
+    <Compile Include="Instructions\RobotMemory\SetAt.cs" />
+    <Compile Include="Instructions\RobotStack\Number.cs" />
+    <Compile Include="Instructions\RobotStack\One.cs" />
+    <Compile Include="Instructions\RobotStack\Zero.cs" />
+    <Compile Include="MatrixLanguageMap.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Wall-EWorld\Wall-EWorld.csproj">
+      <Project>{3a13952f-202b-4348-8b6a-d3a553eeab07}</Project>
+      <Name>Wall-EWorld</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

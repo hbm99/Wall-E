@@ -1,0 +1,5 @@
+e:\documents\visual studio 2017\Projects\Wall-EApp\Wall-EWorld\bin\Debug\Wall-EWorld.dll
+e:\documents\visual studio 2017\Projects\Wall-EApp\Wall-EWorld\bin\Debug\Wall-EWorld.pdb
+e:\documents\visual studio 2017\Projects\Wall-EApp\Wall-EWorld\obj\Debug\Wall-EWorld.csprojResolveAssemblyReference.cache
+e:\documents\visual studio 2017\Projects\Wall-EApp\Wall-EWorld\obj\Debug\Wall-EWorld.dll
+e:\documents\visual studio 2017\Projects\Wall-EApp\Wall-EWorld\obj\Debug\Wall-EWorld.pdb
